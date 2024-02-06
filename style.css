@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template: 160px auto/ 250px auto;
+}
+
+.header {
+    box-shadow: 2px 2px 2px gray;
+    position: relative;
+}
+
+.sidebar {
+    background-color: lightblue;
+    grid-row: 1/3;
+}
+
+.main-content {
+    background-color: lightgray;
+    padding: 15px;
+    display: grid;
+}
+
+.main-content .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+}  
