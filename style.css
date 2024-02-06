@@ -10,6 +10,84 @@ body {
 .header {
     box-shadow: 2px 2px 2px gray;
     position: relative;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* padding: 15px; */
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.kiwi {
+    background-color: pink;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    bottom: 12px;
+}
+
+/* .header-top .search-bar {
+    
+} */
+
+.header-top .profile {
+    padding-top: 6px;
+    justify-self: end;
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: start; */
+    grid-template-columns: 1fr 1fr 2fr;
+    text-align: center;
+}
+
+.search-bar input[type=text] {
+    padding: 6px;
+    border: none;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.header-bottom {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.greetings {
+    font-weight: bold;
+}
+
+.greetings p {
+    margin: 0;
+}
+
+.greetings .name {
+    font-size: 1.2rem;
+}
+
+.header .buttons {
+    justify-self: end;
+    /* align-self: center; */
+}
+
+.header button {
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
 }
 
 .sidebar {
@@ -27,4 +105,14 @@ body {
     background-color: #FFFFFF;
     color: black;
     text-align: center;
-}  
+}
+
+.img-small {
+    width: 40px;
+}
+
+.img-big {
+    width: 65px;
+    float: left;
+    margin-right: 20px;
+}
