@@ -23,17 +23,11 @@ body {
     padding-right: 50px;
 }
 
-.kiwi {
-    background-color: pink;
-    border-radius: 50%;
+.profile .img-small {
     display: block;
     position: relative;
     bottom: 12px;
 }
-
-/* .header-top .search-bar {
-    
-} */
 
 .header-top .profile {
     padding-top: 6px;
@@ -66,6 +60,15 @@ body {
     font-weight: bold;
 }
 
+.greetings .img-big {
+    display: block;
+    position: relative;
+    /* bottom: 120px; */
+    bottom: 12px;
+    float: left;
+    margin-right: 20px;
+}
+
 .greetings p {
     margin: 0;
 }
@@ -96,6 +99,7 @@ body {
     color: white;
     font-weight: bold;
 }
+
 .sidebar .logo {
     font-size: 1.5rem;
 }
@@ -120,7 +124,7 @@ body {
     padding-right: 30px;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
-    gap: 0px 24px;
+    gap: 20px 24px;
 }
 
 .main-content h2 {
@@ -190,12 +194,58 @@ body {
     padding-bottom: 16px;
 }
 
+.trending-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 16px 24px;
+}
+
+.trending-container p {
+    margin: 0;
+}
+
+.trending-container div {
+    margin: 12px 0px;
+}
+
+.trending-container div .img-small {
+    float: left;
+    position: relative;
+    bottom: 6px;
+    margin-right: 1.1rem;
+}
+
+.trending-container,
+ .a-container {
+    box-shadow: 2px 2px 2px grey;
+}
+
 .img-small {
-    width: 40px;
+    width: 45px;
 }
 
 .img-big {
     width: 65px;
-    float: left;
-    margin-right: 20px;
+}
+
+.kiwi {
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.gorilla {
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+.chicken {
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.turtle {
+    background-color: lightskyblue;
+    border-radius: 50%;
 }
