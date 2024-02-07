@@ -116,7 +116,8 @@ body {
 
 .main-content {
     background-color: lightgray;
-    padding: 15px;
+    padding: 20px;
+    padding-right: 30px;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
     gap: 0px 24px;
@@ -133,24 +134,25 @@ body {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 16px;
+    gap: 24px;
 }
 
 .main-content .card {
     background-color: #FFFFFF;
     color: black;
     /* text-align: center; */
-    padding: 12px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 6px;
-    border-left: 3px solid orange;
+    border-left: 6px solid orange;
     box-shadow: 2px 2px 2px grey;
 }
 
 .card .title {
     margin: 0;
+    margin-top: 12px;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -162,6 +164,30 @@ body {
 
 .card .card-buttons {
     align-self: self-end;
+}
+
+.a-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 16px 36px;
+}
+
+.a-title {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.a-container div:not(:last-child){
+    /* margin: 0; */
+    /* padding-bottom: 12px; */
+    border-bottom: 1px solid grey;
+}
+
+.a-title + p{
+    margin: 0;
+    padding-bottom: 16px;
 }
 
 .img-small {
