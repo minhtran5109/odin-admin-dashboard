@@ -205,7 +205,15 @@ body {
 }
 
 .card .card-buttons {
-    align-self: self-end;
+    /* align-self: self-end; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.card-buttons img {
+    width: 22px;
 }
 
 .a-container {
