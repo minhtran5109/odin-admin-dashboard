@@ -5,7 +5,7 @@ body {
 
 .container {
     display: grid;
-    grid-template: 160px auto/ 250px auto;
+    grid-template: 160px auto/ 270px auto;
 }
 
 .header {
@@ -53,6 +53,7 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
 .profile > * {
     justify-self: center;
 }
@@ -60,6 +61,7 @@ body {
 .profile > span {
     margin-top: 3px;
 }
+
 .search-bar input[type=text] {
     padding: 8px 6px;
     border: none;
@@ -87,7 +89,7 @@ body {
     /* bottom: 120px; */
     bottom: 12px;
     float: left;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 .greetings p {
@@ -124,6 +126,13 @@ body {
 
 .sidebar .logo {
     font-size: 1.5rem;
+    margin-left: 16px;
+}
+
+.logo img {
+    width: 48px;
+    position: relative;
+    top: 12px;
 }
 
 .sidebar .menu {
@@ -143,7 +152,7 @@ body {
 .menu img {
     width: 20px;
     position: relative;
-    top: 3px;
+    top: 2px;
     margin-right: 10px;
 }
 
@@ -156,12 +165,13 @@ body {
     padding: 20px;
     padding-right: 30px;
     display: grid;
-    grid-template: 1fr 1fr / 2.2fr .8fr;
-    gap: 12px 24px;
+    grid-template: 1fr 1fr / 2.1fr .9fr;
+    gap: 0px 24px;
 }
 
 .main-content h2 {
     font-size: 1.1rem;
+    margin-top: 12px;
 }
 
 .projects {
@@ -185,6 +195,7 @@ body {
     border-radius: 6px;
     border-left: 6px solid lightsalmon;
     box-shadow: 2px 2px 6px lightgray;
+    height: 180px;
 }
 
 .card .title {
@@ -268,6 +279,7 @@ body {
 
 .trending-container div .nametag + p {
     color: #636363;
+    margin-top: 3px;
 }
 
 .trending-container,
@@ -276,11 +288,13 @@ body {
 }
 
 .img-small {
-    width: 45px;
+    width: 36px;
+    padding: 6px;
 }
 
 .img-big {
-    width: 65px;
+    width: 48px;
+    padding: 8px;
 }
 
 .kiwi {
