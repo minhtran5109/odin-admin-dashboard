@@ -24,10 +24,23 @@ body {
     padding-right: 50px;
 }
 
+.header-top .search-icon {
+    width: 24px;
+    position: relative;
+    top: 8px;
+}
+
+.header-top .noti-icon {
+    width: 24px;
+    position: relative;
+    /* top: 8px; */
+}
+
 .profile .img-small {
     display: block;
     position: relative;
     bottom: 12px;
+    margin-right: 16px;
 }
 
 .header-top .profile {
@@ -38,14 +51,21 @@ body {
     /* align-items: start; */
     grid-template-columns: 1fr 1fr 2fr;
     text-align: center;
+    font-weight: bold;
+}
+.profile > * {
+    justify-self: center;
 }
 
+.profile > span {
+    margin-top: 3px;
+}
 .search-bar input[type=text] {
-    padding: 6px;
+    padding: 8px 6px;
     border: none;
     background-color: #e2e8f0;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
     margin-left: 10px;
 }
 
@@ -71,7 +91,8 @@ body {
 }
 
 .greetings p {
-    margin: 0;
+    font-size: 0.8rem;
+    margin: 3px;
 }
 
 .greetings .name {
